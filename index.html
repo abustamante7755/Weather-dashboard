@@ -1,1 +1,36 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Your Weather Dashboard</h1>
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+            <input 
+            id="search"
+            type="text"
+            placeholder="Enter your City"
+            autocomplete="off"/>
+            <button>Search</button>
+        </div>
+        <div class="notification"></div>
+        <div class="weather-container"></div>
+        <div class="temperature-value">
+          <p> - * <span>F</span></p>
+        </div>
+        <div class="temperature-description">
+            <p>-</p>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
